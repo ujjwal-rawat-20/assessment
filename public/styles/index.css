@@ -45,7 +45,6 @@ body {
 .navBar .navPartTwo {
     display: flex;
     align-items: center;
-    padding: 0 3%;
 }
 
 .navBar .navPartOne .logoImgOne img,
@@ -87,7 +86,7 @@ body {
 }
 
 .navBar .navPartThreeOne .en {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 36px;
     color: #ffffff;
     font-weight: 500;
