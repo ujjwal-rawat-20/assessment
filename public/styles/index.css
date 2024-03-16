@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.topContainer {
+    width: 100%;
+    height: 85%;
+    background-image: url(../assets/main-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.topContainer .innerContainer {
+    width: 100%;
+    height: 100%;
+    padding: 2% 14%;
+}
+
+.navBar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-items: center;
+}
+
+.navBar .navPartOne {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navBar .navPartTwo {
+    display: flex;
+    align-items: center;
+    padding: 0 3%;
+}
+
+.navBar .navPartOne .logoImgOne img,
+.navBar .navPartOne .logoImgTwo img {
+    width: 75%;
+    height: 100%;
+}
+
+.navBar .navPartTwo p {
+    opacity: 0.502;
+    font-size: 10px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto";
+    padding: 0 11px;
+}
+
+.navBar .navPartThree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar .navPartThree .navPartThreeTwo button {
+    font-size: 14px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    padding: 1em 2.5em;
+}
+
+.navBar .navPartThreeOne {
+    display: flex;
+    align-items: center;
+    padding: 0 14px;
+}
+
+.navBar .navPartThreeOne .en {
+    font-size: 14px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Roboto";
+}
