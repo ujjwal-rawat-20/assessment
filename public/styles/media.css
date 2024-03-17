@@ -2,6 +2,7 @@
 
     .topContainer {
         background-image: none;
+        height: auto;
     }
 
     .topContainer .innerContainer {
@@ -10,7 +11,7 @@
 
     .navBar {
         background-color: black;
-        padding: 0 4%;
+        padding: 3% 4%;
     }
 
 
