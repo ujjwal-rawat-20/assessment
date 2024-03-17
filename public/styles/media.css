@@ -1,5 +1,9 @@
 @media screen and (max-width: 700px) {
 
+    #toggle:checked ~ .leftbar {
+        left: 0;
+    }
+
     .topContainer {
         background-image: none;
         height: auto;
@@ -227,6 +231,9 @@
         padding: 5% 0
     }
 
+    .fifthContainer {
+        height: auto;
+    }
 
     .fifthContainer .innerFifthContainer {
         padding: 4% 4%;
@@ -312,12 +319,15 @@
     }
 
     .ninthContainer .innerNinthContainer {
-        padding: 0 4%;
+        padding: 0% 4%;
     }
 
     .ninthContainer {
-        height: auto;
-        padding: 20% 0;
+        height: 40%;
+    }
+
+    .ninthContainer .innerNinthContainer .detailsContainer {
+        justify-content: end;
     }
 
 }
