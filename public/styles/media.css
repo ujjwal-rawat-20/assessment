@@ -25,6 +25,10 @@
         display: block;
     }
 
+    .topContainer .innerContainer .navBar .navPartFour {
+        display: none;
+    }
+
     .topContainer .innerContainer .navBar .navPartOne .logoImgOne {
         width: 14%;
     }
@@ -305,6 +309,12 @@
         padding: 8% 0;
     }
 
+    .eightContainer .innerEightContainer .mapContainer {
+        width: auto;
+        background-color: #ffffff;
+        padding: 2%;
+    }
+
     .eightContainer .innerEightContainer .mapContainer .phone .description,
     .eightContainer .innerEightContainer .mapContainer .email .description,
     .eightContainer .innerEightContainer .mapContainer .skype .description {
@@ -334,3 +344,90 @@
     }
 
 }
+
+ /* For Tablets */
+
+ @media screen and (max-width: 1030px) {
+
+    #toggle:checked ~ .leftbar {
+        left: 0;
+    }
+
+    .navBar .navPartZero {
+        display: block;
+    }
+
+    .topContainer .innerContainer .navBar .navPartFour {
+        display: none;
+    }
+
+    .topContainer .innerContainer .navPartTwo ,
+    .topContainer .innerContainer .navPartThree {
+        display: none;
+    }
+
+    .innerWhyWeDescriptionContainer {
+        flex-direction: column;
+    }
+
+    .innerWhyWeDescriptionContainer .whyWeCard .imgContainer {
+        width: 8%;
+    }
+
+    .secondContainer .whyWeContainer .whyWePara p {
+        word-break: break-all;
+    }
+
+    .sixthContainer .innerSixthContainer .publishersContainer {
+        justify-content: space-evenly;
+    }
+
+    /* .innerWhyWeDescriptionContainer .whyWeCard .paraContainer {
+        font-size: 17px;
+    } */
+
+/*     
+    .topContainer .innerContainer {
+        padding: 2% 7%;
+    }
+
+    .topContainer .innerContainer .navBar .navPartFour button {
+        padding: 7px 10px;
+    }
+
+    .navBar .navPartOne {
+        width: 23%;
+    }
+
+    .navBar .navPartTwo {
+        width: 60%;
+    }
+
+    .navBar .navPartTwo p {
+        padding: 0 7px;
+        font-size: 9px;
+    }
+
+    .globalAgencyContainer .globalAgencyHeading {
+        width: 55%;
+        font-size: 73px;
+        line-height: 74px;
+    }
+
+    .globalAgencyContainerInnerContainer {
+        padding-bottom: 30%;
+    }
+
+    .globalAgencyContainer .globalAgencyButton button {
+        font-size: 16px;
+        padding: 18px 29px;
+    }
+
+    .secondContainer .innerContainer {
+        padding: 0 14%;
+        position: absolute;
+        top: -10%;
+    } */
+
+
+ }
