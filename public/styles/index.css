@@ -123,6 +123,12 @@ body {
     outline: none;
     border: none;
     padding: 1em 2.5em;
+    cursor: pointer;
+}
+
+.navBar .navPartThree .navPartThreeTwo button:hover {
+    background-color: beige;
+    color: #000;
 }
 
 .navBar .navPartThree .enIcon {
@@ -135,6 +141,12 @@ body {
     outline: none;
     border: none;
     padding: 12px 30px;
+    cursor: pointer;
+}
+
+.navBar .navPartFour button:hover {
+    background-color: beige;
+    color: #000;
 }
 
 .topContainer .globalAgencyContainer {
@@ -156,7 +168,7 @@ body {
     padding: 3% 0;
 }
 
-.globalAgencyContainer .globalAgencyButton button{
+.globalAgencyContainer .globalAgencyButton button {
     border-radius: 25px;
     background-image: linear-gradient(90deg, #dd3f25 0%, #f3a331 100%);
     border: none;
@@ -164,7 +176,18 @@ body {
     font-size: 16px;
     /* padding: 2% 29%; */
     padding: 12px 24px;
-    color: white
+    color: white;
+    cursor: pointer;
+}
+
+.globalAgencyContainer .globalAgencyButton button:hover {
+    background-color: beige;
+    color: #000;
+}
+
+globalAgencyContainer .globalAgencyButton button {
+    background-color: beige;
+    color: #000;
 }
 
 .globalAgencyContainerInnerContainer {
@@ -291,6 +314,15 @@ body {
     color: #3f3f3f;
     font-weight: 700;
     font-family: "Roboto";
+
+}
+
+.secondContainer .innerContainer .cardOne .buttonsContainer .joinButton:hover,
+.secondContainer .innerContainer .cardTwo .buttonsContainer .joinButton:hover,
+.secondContainer .innerContainer .cardThree .buttonsContainer .joinButton:hover {
+    background-color: beige;
+    color: #000;
+    cursor: pointer;
 }
 
 .secondContainer .innerContainer .cardTwo .buttonsContainer .joinButton,
@@ -321,6 +353,14 @@ body {
 .secondContainer .innerContainer .cardTwo .buttonsContainer .readButton, 
 .secondContainer .innerContainer .cardThree .buttonsContainer .readButton {
     padding: 0 10px;
+}
+
+
+.secondContainer .innerContainer .cardOne .buttonsContainer .readButton:hover, 
+.secondContainer .innerContainer .cardTwo .buttonsContainer .readButton:hover, 
+.secondContainer .innerContainer .cardThree .buttonsContainer .readButton:hover {
+    color: yellowgreen;
+    cursor: pointer;
 }
 
 .secondContainer .whyWeContainer {
@@ -479,6 +519,7 @@ body {
 .buttons div img {
     width: 100%;
     padding-right: 8px;
+    cursor: pointer;
 }
 
 .fourthContainer .innerFourthContainer .advertisersPhoneContainer .rightIconContainer {
@@ -497,6 +538,11 @@ body {
     font-family: "Roboto";
     padding: 3% 0;
     font-size: 13px;
+    cursor: pointer;
+}
+
+.fourthContainer .innerFourthContainer .advertisersPhoneContainer .readMore:hover {
+    color: yellowgreen;
 }
 
 .fifthContainer {
